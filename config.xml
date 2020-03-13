@@ -26,4 +26,5 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <hook type="before_run" src="hooks/DevServer.js"/>
+    <hook type="after_run" src="hooks/DevServerStart.js"/>
 </widget>
