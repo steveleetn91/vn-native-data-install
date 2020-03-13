@@ -1,5 +1,5 @@
 var fs = require('fs');
-fs.readFile('./platforms/android/app/src/main/assets/www/index.html', 'utf8', function (err,data) {
+fs.readFile('./www/index.html', 'utf8', function (err,data) {
   if (err) {
     return console.log(err);
   }
